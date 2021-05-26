@@ -1,0 +1,28 @@
+{
+  "north": "unknown",
+  "east": "unknown",
+  "south": "trivial",
+  "west": "invalid",
+  "rows": 4,
+  "columns": 4,
+  "wumpuses": 1,
+  "pits": 3,
+  "observations": [
+    {
+      "location": [1, 1],
+      "percepts": []
+    },
+    {
+      "location": [2, 1],
+      "percepts": ["Breeze"]
+    },
+    {
+      "location": [1, 1],
+      "percepts": []
+    },
+    {
+      "location": [1, 2],
+      "percepts": ["Breeze"]
+    }
+  ]
+}

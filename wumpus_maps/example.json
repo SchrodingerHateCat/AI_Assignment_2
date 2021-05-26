@@ -1,0 +1,40 @@
+{
+  "north_comment": "If the agent moves north from current position, it will get eaten by the wumpus.",
+  "north": "unsafe",
+  "east_comment": "It's possible that there is a pit in the east, but we're not sure.",
+  "east": "unknown",
+  "south_comment": "The south is (1,1) and it's trivially safe since the agent was just there one step before.",
+  "south": "trivial",
+  "west_comment": "Moving west is invalid because we cannot step outside the board.",
+  "west": "invalid",
+  "rows_comment": "The number of rows of the map",
+  "rows": 4,
+  "columns_comment": "The number of columns of the map",
+  "columns": 4,
+  "wumpuses_comment": "The number of wumpuses in the map",
+  "wumpuses": 1,
+  "pits_comment": "The number of pits in the map",
+  "pits": 1,
+  "observations_comment": "The sequence of observations gathered by the actions the agent has done so far",
+  "observations": [
+    {
+      "location_comments": "Coordinates where the observation was made",
+      "location": [1, 1],
+      "percepts_comments": "The list of percepts gathered by the agent, empty list mean nothing was perceived.",
+      "percepts": []
+    },
+    {
+      "location": [2, 1],
+      "percepts": ["Breeze"]
+    },
+    {
+      "location": [1, 1],
+      "percepts": []
+    },
+    {
+      "location_comments": "This is the current position of the agent.",
+      "location": [1, 2],
+      "percepts": ["Stench"]
+    }
+  ]
+}

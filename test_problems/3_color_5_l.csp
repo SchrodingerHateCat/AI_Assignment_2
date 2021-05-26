@@ -1,0 +1,5 @@
+var v0 v1 v2 v3 v4 : c1 c2 c3
+con v0 v1 : c1 c2 : c1 c3 : c2 c1 : c2 c3 : c3 c1 : c3 c2
+con v1 v2 : c1 c2 : c1 c3 : c2 c1 : c2 c3 : c3 c1 : c3 c2
+con v2 v3 : c1 c2 : c1 c3 : c2 c1 : c2 c3 : c3 c1 : c3 c2
+con v3 v4 : c1 c2 : c1 c3 : c2 c1 : c2 c3 : c3 c1 : c3 c2

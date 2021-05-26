@@ -1,0 +1,28 @@
+{
+  "north": "safe",
+  "east": "unsafe",
+  "south": "invalid",
+  "west": "trivial",
+  "rows": 3,
+  "columns": 3,
+  "wumpuses": 1,
+  "pits": 1,
+  "observations": [
+    {
+      "location": [1, 1],
+      "percepts": []
+    },
+    {
+      "location": [1, 2],
+      "percepts": ["Breeze"]
+    },
+    {
+      "location": [1, 1],
+      "percepts": []
+    },
+    {
+      "location": [2, 1],
+      "percepts": ["Stench"]
+    }
+  ]
+}

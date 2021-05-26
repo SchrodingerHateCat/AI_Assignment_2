@@ -1,0 +1,20 @@
+var P_14 P_24 P_34 P_44 : 0 1
+var P_13 P_23 P_33 P_43 : 0 1
+var P_12 P_22 P_32 P_42 : 0 1
+var P_11 P_21 P_31 P_41 : 0 1
+var W_14 W_24 W_34 W_44 : 0 1
+var W_13 W_23 W_33 W_43 : 0 1
+var W_12 W_22 W_32 W_42 : 0 1
+var W_11 W_21 W_31 W_41 : 0 1
+
+con 22 : B : PB : WB : PBS : WBS : BA : BS : BSA
+con 32 : P : PB : PS : PBS
+con 12 : P : PB : PS : PBS
+con 23 : P : PB : PS : PBS
+con 21 : P : PB : PS : PBS
+
+con 21 : S : PS : WS : PBS : WBS : SA : BS : BSA
+con 31 : W : WB : WS : WBS
+con 11 : W : WB : WS : WBS
+con 22 : W : WB : WS : WBS
+

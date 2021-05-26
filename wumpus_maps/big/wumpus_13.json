@@ -1,0 +1,40 @@
+{
+  "north": "safe",
+  "east": "unsafe",
+  "south": "trivial",
+  "west": "trivial",
+  "rows": 4,
+  "columns": 4,
+  "wumpuses": 1,
+  "pits": 2,
+  "observations": [
+    {
+      "location": [1, 1],
+      "percepts": []
+    },
+    {
+      "location": [1, 2],
+      "percepts": ["Breeze"]
+    },
+    {
+      "location": [1, 1],
+      "percepts": []
+    },
+    {
+      "location": [2, 1],
+      "percepts": []
+    },
+    {
+      "location": [3, 1],
+      "percepts": ["Breeze"]
+    },
+    {
+      "location": [2, 1],
+      "percepts": []
+    },
+    {
+      "location": [2, 2],
+      "percepts": ["Breeze"]
+    }
+  ]
+}

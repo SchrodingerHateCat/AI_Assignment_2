@@ -1,0 +1,5 @@
+var a b c : 0 1 2 
+con b c : 0 1 : 0 2 : 1 2
+con c b a : 2 0 2
+con a c : 0 0 : 1 1 : 2 2
+con a c : 0 1 : 0 2 : 1 0 : 1 2 : 2 0 : 2 1

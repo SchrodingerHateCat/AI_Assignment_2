@@ -1,0 +1,17 @@
+
+%map colouring
+
+var QLD NSW VIC ACT SA NT WA TAS : red green blue
+
+neq WA NT
+neq WA SA
+neq NT SA
+neq NT QLD
+neq SA QLD
+neq SA NSW
+neq SA VIC
+neq QLD NSW
+neq NSW ACT
+neq NSW VIC
+neq VIC TAS
+neq VIC ACT
